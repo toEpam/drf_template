@@ -76,7 +76,6 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 10
 }
 
-
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
