@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'import_export',
     'tutorial.quickstart',
+    'import_export',
 ]
 
 MIDDLEWARE = [
@@ -75,6 +75,7 @@ REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 10
 }
+
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
